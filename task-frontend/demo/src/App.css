@@ -1,0 +1,15 @@
+
+
+.appContainer {
+  padding: 20px;
+  background-color: #f0f4f8; 
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.appTitle {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

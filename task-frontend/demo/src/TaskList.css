@@ -1,0 +1,125 @@
+
+
+.container {
+  padding: 20px;
+  max-width: 960px;
+  margin: 20px auto;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.input {
+  padding: 8px;
+  width: 60%;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.emojiContainer {
+  margin-top: 8px;
+}
+
+.emoji {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.taskList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.taskCard {
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.taskTitle {
+  font-size: 18px;
+}
+
+.taskDate {
+  font-size: 0.8em;
+  color: #555;
+  margin-top: 6px;
+}
+
+.editInput {
+  padding: 6px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.buttonGroup {
+  margin-top: 8px;
+}
+
+.saveButton {
+  margin-right: 8px;
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  padding: 6px 12px;
+  background-color: #9e9e9e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actionButtons {
+  margin-top: 12px;
+  text-align: right;
+}
+
+.editButton {
+  margin-right: 10px;
+  padding: 6px 12px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  padding: 6px 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
